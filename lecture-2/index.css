@@ -1,0 +1,80 @@
+body {
+    background-color: #F5F5F5;
+}
+.main_dashboard {
+    display: flex;
+    flex-direction: row;
+}
+.left {
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: black;
+    width: 280px;
+    height: 100vh;
+    border-radius: 30px;
+    overflow-y: hidden;
+}
+.divcontent {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    color: white;
+    margin-left: 50px;
+}
+.divcontent1 {
+    margin: 0;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: white;
+}
+.heading {
+    color: white;
+    margin-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.heading1 {
+    margin-left: 50px;
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 24px;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dashboard_rightcorner {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: right;
+    
+}
+.search
+{
+    margin-left: 500px;
+    width: 180px;
+    height: 19px;
+    border: 0px solid white;
+    background-color: #FFFF;
+    border-radius: 12px;
+}
+.fabell {
+    margin-left: 50px;
+}
+.fauseralt{
+    margin-left: 20px;
+
+
+}
+.search::placeholder {
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #B0B0B0;
+    padding-right: 15px;
+}
